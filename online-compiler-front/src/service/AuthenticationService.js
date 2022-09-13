@@ -2,7 +2,7 @@ import axios from 'axios'
 
 export const API_URL = 'http://localhost:8080'
 export const API_KEY = '27c6bc68b6msh98173d4927e8500p1b3caejsn3719b5fd0d36';
-export const CREDENTIALS = btoa(`bruno:miletic`);
+export const CREDENTIALS = btoa(`admin:admin`);
 export const USER_NAME_SESSION_ATTRIBUTE_NAME = 'authenticatedUser'
 
 class AuthenticationService {
